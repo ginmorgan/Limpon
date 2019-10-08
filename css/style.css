@@ -1,0 +1,138 @@
+/* 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #7581a1;
+  line-height: 26px;
+}
+
+a {
+  text-decoration: none
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: 600;
+  color: #192b59;
+  line-height: 90px;
+}
+
+.nav {
+  font-size: 12px;
+  font-weight: 700;
+  color: #6e7ea9;
+  text-transform: uppercase;
+}
+
+.btn-free {
+  font-size: 12px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #1085e4;
+}
+
+.page-header {
+  background-image: url(../img/header-section-bg.png);
+}
+
+.page-company {
+  background-color: #1085e4;
+  background-image:url(../img/section-logo-bg.png);
+}
+
+.grid h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #192b59;
+}
+
+.grid h2 span {
+  font-size: 14px;
+  font-weight: 800;
+  color: #1085e4; 
+  text-transform: uppercase;
+  display: block; 
+}
+
+.grid-item h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #192b59;
+}
+
+.grid-item p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #7581a1;
+}
+
+.grid-item a {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1085e4;
+}
+
+.page-subscribe {
+  background-image: url(/img/subscribe-bg.png)
+}
+
+.page-subscribe h2 {
+  font-size: 50px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 26px;
+}
+
+.page-subscribe h2 span {
+  font-size: 14px;
+  font-weight: 700;
+  color: #00bffe;
+  text-transform: uppercase;
+  line-height: 26px;
+  display: block
+}
+
+.page-subscribe p {
+  font-size: 18px;
+  color: #dfe8ff;
+  line-height: 28px;
+}
+
+.page-h2 {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+  color: #192b59;
+}
+
+
+.page-software dt {
+  font-weight: 700;
+  line-height: 26px;
+  color: #5a6789;
+}
+
+.page-stat {
+  background-image: url(../img/funfacts-bg.png);
+}
+
+.page-stat h2 span {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #1085e4;
+  text-transform: uppercase;
+  display: block;
+}
+
+.page-app p span{
+  color: #c4d2dd;
+  text-transform: uppercase;
+  line-height: 60px;
+  letter-spacing: 5px;
+}
