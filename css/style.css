@@ -3,15 +3,27 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Poppins', sans-serif;
 */
 
+* {
+  border: 0.5px solid red;
+}
+
 body {
+  width: 1920px;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   color: #7581a1;
   line-height: 26px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 1110px;
+  /*display: block;*/
+  margin: 0 auto;
 }
 
 a {
-  text-decoration: none
+  text-decoration: none;
 }
 
 h1 {
@@ -26,6 +38,28 @@ h1 {
   font-weight: 700;
   color: #6e7ea9;
   text-transform: uppercase;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  display:flex;
+}
+
+.nav li {
+  display: flex;
+}
+
+.nav a {
+  color: #6e7ea9;
+}
+
+.header-nav {
+  display:flex;
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 20px 45px;
+  border-radius: 40px
 }
 
 .btn-free {
@@ -34,15 +68,48 @@ h1 {
   color: #fff;
   text-transform: uppercase;
   background-color: #1085e4;
+  padding: 20px 45px;
+}
+
+.btn-blue {
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #1085e4;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.btn-gray {
+  font-size: 12px;
+  font-weight: 700;
+  color: #7e8bae;
+  background-color: #cbdbe8;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .page-header {
+  padding-top: 50px;
+  padding-bottom: 90px;
   background-image: url(../img/header-section-bg.png);
+}
+
+.header-text-block {
+  width: 540px;
+  text-align: left;
+  padding: 215px 0px;
+  margin-right: 95px;
+}
+
+.block-text-pic { 
+  
 }
 
 .page-company {
   background-color: #1085e4;
   background-image:url(../img/section-logo-bg.png);
+  padding: 95px 0;
 }
 
 .grid h2 {
@@ -118,6 +185,7 @@ h1 {
 }
 
 .page-stat {
+  text-align: center;
   background-image: url(../img/funfacts-bg.png);
 }
 
@@ -135,4 +203,25 @@ h1 {
   text-transform: uppercase;
   line-height: 60px;
   letter-spacing: 5px;
+}
+ 
+.page-screen {
+  background-color: #edf6ff;
+  text-align: center;
+}
+
+.page-screen h2 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 50px;
+  color: #192b59;
+}
+
+.page-screen h2 span {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 90px;
+  color: #1085e4;
+  text-transform: uppercase;
+  display: block;
 }
