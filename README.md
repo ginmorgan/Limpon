@@ -1,1 +1,1 @@
-https://github.com/ginmorgan/Limpon/index.html
+https://github.com/ginmorgan/Limpon/blob/master/index.html
